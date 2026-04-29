@@ -16,8 +16,6 @@ Usage Example:
     EXEC bronze.load_bronze;
 ===============================================================================
 */
-USE DataWarehouse;
-GO
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
@@ -148,5 +146,3 @@ BEGIN
 		PRINT '=========================================='
 	END CATCH
 END
-
-EXEC bronze.load_bronze;
